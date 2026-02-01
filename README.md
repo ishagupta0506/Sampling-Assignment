@@ -7,7 +7,7 @@ performance of machine-learning classifiers on an **imbalanced
 dataset**.
 
 Imbalanced data is common in real-world problems (e.g., fraud detection,
-medical diagnosis), and improper handling can lead to biased models. We:
+medical diagnosis), and improper handling can lead to biased models. I:
 
 -   Split data correctly into train and test sets
 -   Balance only the training data
