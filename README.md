@@ -62,27 +62,28 @@ strictly followed:
 
 ------------------------------------------------------------------------
 
-##  Sampling Techniques
+## Sampling Techniques
 
-  Technique       Description
-  --------------- -----------------------------
-  Simple Random   Random subset of records
-  Stratified      Preserves class proportions
-  Systematic      Every k-th sample
-  Bootstrap       Sampling with replacement
-  Cluster         Random chunk selection
+| Technique      | Description                     |
+|----------------|---------------------------------|
+| Simple Random  | Random subset of records        |
+| Stratified     | Preserves class proportions     |
+| Systematic     | Every k-th sample               |
+| Bootstrap      | Sampling with replacement       |
+| Cluster        | Random chunk selection          |
 
 ------------------------------------------------------------------------
 
-##  Machine-Learning Models
+## Machine-Learning Models
 
-  Model           Purpose
-  --------------- ---------------------------
-  Random Forest   Ensemble decision trees
-  KNN             Distance-based classifier
-  Naive Bayes     Probabilistic model
-  MLP             Neural network
-  SVM             Margin-based classifier
+| Model         | Purpose                    |
+|-------------- |----------------------------|
+| Random Forest | Ensemble decision trees    |
+| KNN           | Distance-based classifier  |
+| Naive Bayes   | Probabilistic model        |
+| MLP           | Neural network             |
+| SVM           | Margin-based classifier    |
+
 
 ------------------------------------------------------------------------
 
@@ -90,20 +91,15 @@ strictly followed:
 
 ###  Accuracy (%) Table
 
-  ---------------------------------------------------------------------------
-  Model ↓ / Sampling Simple   Stratified   Systematic   Bootstrap   Cluster
-  →                                                                 
-  ------------------ -------- ------------ ------------ ----------- ---------
-  **Random Forest**  99.35    99.35        99.35        99.35       99.35
+## Accuracy Results
 
-  **KNN**            96.77    96.77        96.77        96.77       96.77
-
-  **Naive Bayes**    96.13    94.19        95.48        94.19       95.48
-
-  **MLP**            97.42    97.42        93.55        97.42       97.42
-
-  **SVM**            72.90    69.03        69.03        50.97       69.03
-  ---------------------------------------------------------------------------
+| Model ↓ / Sampling → | Sampling1_Simple | Sampling2_Stratified | Sampling3_Systematic | Sampling4_Bootstrap | Sampling5_Cluster |
+|---------------------|------------------|---------------------|---------------------|--------------------|------------------|
+| **M1_RandomForest** | 99.35 | 99.35 | 99.35 | 99.35 | 99.35 |
+| **M2_KNN**          | 96.77 | 96.77 | 96.77 | 96.77 | 96.77 |
+| **M3_NaiveBayes**   | 96.13 | 94.19 | 95.48 | 94.19 | 95.48 |
+| **M4_MLP**          | 97.42 | 97.42 | 93.55 | 97.42 | 97.42 |
+| **M5_SVM**          | 72.90 | 69.03 | 69.03 | 50.97 | 69.03 |
 
 ------------------------------------------------------------------------
 
