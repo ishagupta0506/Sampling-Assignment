@@ -42,18 +42,18 @@ strictly followed:
 
 3.  **Sampling Techniques**
 
-    -   Simple Random Sampling\
-    -   Stratified Sampling\
-    -   Systematic Sampling\
-    -   Bootstrap Sampling\
+    -   Simple Random Sampling
+    -   Stratified Sampling
+    -   Systematic Sampling
+    -   Bootstrap Sampling
     -   Cluster Sampling
 
 4.  **Models Evaluated**
 
-    -   Random Forest\
-    -   K-Nearest Neighbors (KNN)\
-    -   Naive Bayes\
-    -   Multi-Layer Perceptron (MLP)\
+    -   Random Forest
+    -   K-Nearest Neighbors (KNN)
+    -   Naive Bayes
+    -   Multi-Layer Perceptron (MLP)
     -   Support Vector Machine (SVM)
 
 5.  **Evaluation Metric**
@@ -154,7 +154,7 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
 
 Open the notebook:
 
-    102303007_sampling.ipynb
+    102303007_Sampling.ipynb
 
 Run all cells from top to bottom.
 
